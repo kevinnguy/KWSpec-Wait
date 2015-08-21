@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A9C9E8C1B86A5E000C7F1B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9C9E8B1B86A5E000C7F1B8 /* main.m */; };
+		0A9C9E8F1B86A5E000C7F1B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9C9E8E1B86A5E000C7F1B8 /* AppDelegate.m */; };
+		0A9C9E921B86A5E000C7F1B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9C9E911B86A5E000C7F1B8 /* ViewController.m */; };
+		0A9C9E951B86A5E000C7F1B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A9C9E931B86A5E000C7F1B8 /* Main.storyboard */; };
+		0A9C9E971B86A5E000C7F1B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A9C9E961B86A5E000C7F1B8 /* Images.xcassets */; };
+		0A9C9E9A1B86A5E000C7F1B8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A9C9E981B86A5E000C7F1B8 /* LaunchScreen.xib */; };
+		0A9C9EA61B86A5E000C7F1B8 /* KWSpec_WaitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9C9EA51B86A5E000C7F1B8 /* KWSpec_WaitTests.m */; };
+		0A9C9EB21B86A60D00C7F1B8 /* KWSpec+Wait.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9C9EB11B86A60D00C7F1B8 /* KWSpec+Wait.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A9C9EA01B86A5E000C7F1B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A9C9E7E1B86A5E000C7F1B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A9C9E851B86A5E000C7F1B8;
+			remoteInfo = "KWSpec+Wait";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A9C9E861B86A5E000C7F1B8 /* KWSpec+Wait.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KWSpec+Wait.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A9C9E8A1B86A5E000C7F1B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A9C9E8B1B86A5E000C7F1B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A9C9E8D1B86A5E000C7F1B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0A9C9E8E1B86A5E000C7F1B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0A9C9E901B86A5E000C7F1B8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0A9C9E911B86A5E000C7F1B8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0A9C9E941B86A5E000C7F1B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A9C9E961B86A5E000C7F1B8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0A9C9E991B86A5E000C7F1B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0A9C9E9F1B86A5E000C7F1B8 /* KWSpec+WaitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KWSpec+WaitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A9C9EA41B86A5E000C7F1B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A9C9EA51B86A5E000C7F1B8 /* KWSpec_WaitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KWSpec_WaitTests.m; sourceTree = "<group>"; };
+		0A9C9EB01B86A60D00C7F1B8 /* KWSpec+Wait.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KWSpec+Wait.h"; sourceTree = "<group>"; };
+		0A9C9EB11B86A60D00C7F1B8 /* KWSpec+Wait.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KWSpec+Wait.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A9C9E831B86A5E000C7F1B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9C9E9C1B86A5E000C7F1B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A9C9E7D1B86A5E000C7F1B8 = {
+			isa = PBXGroup;
+			children = (
+				0A9C9EAF1B86A5F100C7F1B8 /* Classes */,
+				0A9C9E881B86A5E000C7F1B8 /* KWSpec+Wait */,
+				0A9C9EA21B86A5E000C7F1B8 /* KWSpec+WaitTests */,
+				0A9C9E871B86A5E000C7F1B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A9C9E871B86A5E000C7F1B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A9C9E861B86A5E000C7F1B8 /* KWSpec+Wait.app */,
+				0A9C9E9F1B86A5E000C7F1B8 /* KWSpec+WaitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A9C9E881B86A5E000C7F1B8 /* KWSpec+Wait */ = {
+			isa = PBXGroup;
+			children = (
+				0A9C9E8D1B86A5E000C7F1B8 /* AppDelegate.h */,
+				0A9C9E8E1B86A5E000C7F1B8 /* AppDelegate.m */,
+				0A9C9E901B86A5E000C7F1B8 /* ViewController.h */,
+				0A9C9E911B86A5E000C7F1B8 /* ViewController.m */,
+				0A9C9E931B86A5E000C7F1B8 /* Main.storyboard */,
+				0A9C9E961B86A5E000C7F1B8 /* Images.xcassets */,
+				0A9C9E981B86A5E000C7F1B8 /* LaunchScreen.xib */,
+				0A9C9E891B86A5E000C7F1B8 /* Supporting Files */,
+			);
+			path = "KWSpec+Wait";
+			sourceTree = "<group>";
+		};
+		0A9C9E891B86A5E000C7F1B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A9C9E8A1B86A5E000C7F1B8 /* Info.plist */,
+				0A9C9E8B1B86A5E000C7F1B8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A9C9EA21B86A5E000C7F1B8 /* KWSpec+WaitTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A9C9EA51B86A5E000C7F1B8 /* KWSpec_WaitTests.m */,
+				0A9C9EA31B86A5E000C7F1B8 /* Supporting Files */,
+			);
+			path = "KWSpec+WaitTests";
+			sourceTree = "<group>";
+		};
+		0A9C9EA31B86A5E000C7F1B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A9C9EA41B86A5E000C7F1B8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A9C9EAF1B86A5F100C7F1B8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0A9C9EB01B86A60D00C7F1B8 /* KWSpec+Wait.h */,
+				0A9C9EB11B86A60D00C7F1B8 /* KWSpec+Wait.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A9C9E851B86A5E000C7F1B8 /* KWSpec+Wait */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A9C9EA91B86A5E000C7F1B8 /* Build configuration list for PBXNativeTarget "KWSpec+Wait" */;
+			buildPhases = (
+				0A9C9E821B86A5E000C7F1B8 /* Sources */,
+				0A9C9E831B86A5E000C7F1B8 /* Frameworks */,
+				0A9C9E841B86A5E000C7F1B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KWSpec+Wait";
+			productName = "KWSpec+Wait";
+			productReference = 0A9C9E861B86A5E000C7F1B8 /* KWSpec+Wait.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A9C9E9E1B86A5E000C7F1B8 /* KWSpec+WaitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A9C9EAC1B86A5E000C7F1B8 /* Build configuration list for PBXNativeTarget "KWSpec+WaitTests" */;
+			buildPhases = (
+				0A9C9E9B1B86A5E000C7F1B8 /* Sources */,
+				0A9C9E9C1B86A5E000C7F1B8 /* Frameworks */,
+				0A9C9E9D1B86A5E000C7F1B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A9C9EA11B86A5E000C7F1B8 /* PBXTargetDependency */,
+			);
+			name = "KWSpec+WaitTests";
+			productName = "KWSpec+WaitTests";
+			productReference = 0A9C9E9F1B86A5E000C7F1B8 /* KWSpec+WaitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A9C9E7E1B86A5E000C7F1B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = kevinnguy;
+				TargetAttributes = {
+					0A9C9E851B86A5E000C7F1B8 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					0A9C9E9E1B86A5E000C7F1B8 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 0A9C9E851B86A5E000C7F1B8;
+					};
+				};
+			};
+			buildConfigurationList = 0A9C9E811B86A5E000C7F1B8 /* Build configuration list for PBXProject "KWSpec+Wait" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A9C9E7D1B86A5E000C7F1B8;
+			productRefGroup = 0A9C9E871B86A5E000C7F1B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A9C9E851B86A5E000C7F1B8 /* KWSpec+Wait */,
+				0A9C9E9E1B86A5E000C7F1B8 /* KWSpec+WaitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A9C9E841B86A5E000C7F1B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A9C9E951B86A5E000C7F1B8 /* Main.storyboard in Resources */,
+				0A9C9E9A1B86A5E000C7F1B8 /* LaunchScreen.xib in Resources */,
+				0A9C9E971B86A5E000C7F1B8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9C9E9D1B86A5E000C7F1B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A9C9E821B86A5E000C7F1B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A9C9E921B86A5E000C7F1B8 /* ViewController.m in Sources */,
+				0A9C9EB21B86A60D00C7F1B8 /* KWSpec+Wait.m in Sources */,
+				0A9C9E8F1B86A5E000C7F1B8 /* AppDelegate.m in Sources */,
+				0A9C9E8C1B86A5E000C7F1B8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9C9E9B1B86A5E000C7F1B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A9C9EA61B86A5E000C7F1B8 /* KWSpec_WaitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A9C9EA11B86A5E000C7F1B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A9C9E851B86A5E000C7F1B8 /* KWSpec+Wait */;
+			targetProxy = 0A9C9EA01B86A5E000C7F1B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A9C9E931B86A5E000C7F1B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A9C9E941B86A5E000C7F1B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A9C9E981B86A5E000C7F1B8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A9C9E991B86A5E000C7F1B8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A9C9EA71B86A5E000C7F1B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A9C9EA81B86A5E000C7F1B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A9C9EAA1B86A5E000C7F1B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "KWSpec+Wait/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0A9C9EAB1B86A5E000C7F1B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "KWSpec+Wait/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0A9C9EAD1B86A5E000C7F1B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KWSpec+WaitTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KWSpec+Wait.app/KWSpec+Wait";
+			};
+			name = Debug;
+		};
+		0A9C9EAE1B86A5E000C7F1B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KWSpec+WaitTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KWSpec+Wait.app/KWSpec+Wait";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A9C9E811B86A5E000C7F1B8 /* Build configuration list for PBXProject "KWSpec+Wait" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A9C9EA71B86A5E000C7F1B8 /* Debug */,
+				0A9C9EA81B86A5E000C7F1B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A9C9EA91B86A5E000C7F1B8 /* Build configuration list for PBXNativeTarget "KWSpec+Wait" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A9C9EAA1B86A5E000C7F1B8 /* Debug */,
+				0A9C9EAB1B86A5E000C7F1B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0A9C9EAC1B86A5E000C7F1B8 /* Build configuration list for PBXNativeTarget "KWSpec+WaitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A9C9EAD1B86A5E000C7F1B8 /* Debug */,
+				0A9C9EAE1B86A5E000C7F1B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A9C9E7E1B86A5E000C7F1B8 /* Project object */;
+}
