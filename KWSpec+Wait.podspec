@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "KWSpec+Wait"
-  s.version          = "1.0.0"
+  s.version          = "1.0.2"
   s.summary          = "Delay execution of Kiwi specs until an asynchronous process finishes."
   s.homepage         = "https://github.com/kevinnguy/KWSpec-Wait"
   s.license          = 'MIT'
