@@ -432,6 +432,7 @@
 				0A9C9EAB1B86A5E000C7F1B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A9C9EAC1B86A5E000C7F1B8 /* Build configuration list for PBXNativeTarget "KWSpec+WaitTests" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +441,7 @@
 				0A9C9EAE1B86A5E000C7F1B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
